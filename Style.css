@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-principal{
+    width: 100vw;
+    height: 100vh;
+    background-color: #191919;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px 0 30px;
+}
+
+.Portfolio{
+    font-size: 30px;
+    color: #ffffff;
+    
+}
+.Portfolio span{
+    color:hsl(214, 91%, 32%) ;
+}
+
+li{
+    color:white;
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 50px;
+}
+li:hover{
+    color:hsl(214, 91%, 32%) ; 
+    transition: 0.5s;
+    cursor: pointer;
+}

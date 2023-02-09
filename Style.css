@@ -266,6 +266,10 @@ footer p {
     transition: 0.5s;
     background-color: rgb(241, 8, 8);
 }
+
+h5 span{
+    color:rgb(241, 8, 8); ;
+}
 @keyframes moverImagem {
     from {
         transform: translate(-5%, -2%) rotate(-2deg);
